@@ -73,9 +73,12 @@ Runs as soon as you power on the computer — like a car’s dashboard check �
 ❌ If something fails → the system stops and shows errors or beep sounds 🚨
 
 
-## 2. 👨‍✈️ 1️⃣ BIOS → Finds Device
+## 2. BIOS → Finds the Disk That Has the OS  
 
-BIOS asks:
+ 1️⃣ Initialize Hardware like CPU, RAM, STORAGE(HDD,SSD)  
+ 2️⃣ Run POST (Power-On Self-Test)  
+ 3️⃣ Find Bootable Device  
+
 👉 “From which device should I start the computer?”
 
 It looks in order:
@@ -86,8 +89,6 @@ It looks in order:
 
 Once it finds the device that has OS, it says:
 👉 “Okay, I will start from this disk.”
-
-📌 So BIOS = selects the correct disk
 
 On that selected disk, BIOS goes to:
  📍 Sector 0 (first 512 bytes)
