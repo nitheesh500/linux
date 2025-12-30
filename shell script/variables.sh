@@ -8,3 +8,8 @@ echo $USER
 echo $PWD
 echo $SHELL
 echo $HOME
+
+echo "enter your name"
+read  n1
+
+echo "name:$n1"
