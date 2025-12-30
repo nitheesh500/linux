@@ -15,7 +15,7 @@ echo "name: $name password: $password"
 
 read -n 1 -p "Press any key to continue: " key
 
-echo  $key
+echo $key
 echo $USER
 echo $HOME
 echo $SHELL
